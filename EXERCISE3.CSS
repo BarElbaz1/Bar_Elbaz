@@ -1,0 +1,20 @@
+* {
+    font-size: 20px;
+}
+
+body{ 
+    background-color: rgb(217, 225, 243);
+}
+
+h2{ /* by the name of the element*/
+    color: rgb(182, 105, 115); 
+}
+
+#Password { /* by id of the element*/
+    color: rebeccapurple;
+    background-color:rgb(142, 136, 148)
+}
+
+.submit { /* by class of same elements, class wins name */
+    color: red;
+}
