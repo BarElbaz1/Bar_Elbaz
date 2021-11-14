@@ -1,0 +1,49 @@
+
+
+:root{
+    --darkGreen: #687864;
+    --darkBlue: #31708E;
+    --MIDBlue: #5085A5;
+    --LIGHTBlue: #8FC1E3;
+    --WHITE: #F7F9FB;
+}
+
+body{
+    font-family: sans-serif;
+    color: rgb(47,47,55);
+    background-color: var(--LIGHTBlue);
+}
+
+label{
+color: black;
+padding: 10px;
+margin: 10px;
+
+}
+input{
+
+    color: black;
+    padding: 5px;
+    margin: 10px;
+    
+    }x
+    #Registration{
+        font-family: sans-serif;
+    }
+    .buxa{
+        background-color:var(--darkBlue);
+
+    }
+    input.submit{
+background-color: darkorchid;
+    }
+
+    a:link{
+        color: darkred;
+    }
+    @media only screen and (max-width:600px) {
+        body{
+            background-color: pink;
+        }
+        
+    }
