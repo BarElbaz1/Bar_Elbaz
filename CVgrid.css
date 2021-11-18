@@ -46,3 +46,22 @@ background-color: thistle;}
     body{
         background-color:powderblue;
     }
+}
+
+    button{
+        height: 20%;
+        font-size: 20px;
+        background-color: cadetblue;
+        animation-name: blink;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes blink {
+            0% {background-color: yellow; border-radius: 0%;}
+            50%   {background-color: white; border-radius: 50%;}
+            100% {background-color: yellow; border-radius: 100%;}
+            100% {background-color: yellow; border-radius: 0%;}
+    }
+
+        
